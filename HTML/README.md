@@ -1,7 +1,13 @@
-HTML is HyperText Markup Language.
-HTML is a combination of HyperText and Markup Language.
-HyperText defines the link between web pages.
-Markup Language defines text document within the tag that define the structure of web page.
-Used to create Web Pages and Web Applications.
-HTML is a Markup language rather than a programming language.
-HTML is used to define the look of a website.
+1. HTML is HyperText Markup Language.
+   
+2. HTML is a combination of HyperText and Markup Language.
+ 
+3. HyperText defines the link between web pages.
+  
+4. Markup Language defines text document within the tag that define the structure of web page.
+   
+5. Used to create Web Pages and Web Applications.
+    
+6. HTML is a Markup language rather than a programming language.
+    
+7. HTML is used to define the look of a website.
