@@ -1,0 +1,53 @@
+div{
+    width:500px;
+    height: 500px;
+    color: rgb(255, 0, 153);
+    font-size: 30px;
+    border: 3px solid blueviolet;
+}
+
+.one{
+    background-image: url(background.jpg);
+}
+
+.two{
+    background-image: url(background.jpg);
+    background-repeat: repeat-x;
+}
+
+.three{
+    background-image: url(background.jpg);
+    background-repeat: repeat-y;
+}
+
+.four{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+}
+
+.five{
+    background-image: url(images.jpeg);
+    background-size: auto;
+}
+
+.six{
+    background-image: url(images.jpeg);
+    background-size: contain;
+}
+
+.seven{
+    background-image: url(images.jpeg);
+    background-size: cover;
+}
+
+.eight{
+    background-image: url(images.jpeg);
+    background-size: 250px 250px;
+}
+
+.nine{
+    background-image: url(images.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
