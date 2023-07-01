@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Basic Code/ic.ico" type="image/x-icon">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <fieldset><legend>Details</legend>
+    
+    <form action="">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email"><br><br>
+
+        <label for="addr">Address</label> <br>
+        <textarea name="addr" id="addr" cols="30" rows="10"></textarea><br><br>
+
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="male">
+        <label for="male">male</label>
+
+        <input type="radio" name="gender" id="female">
+        <label for="male">female</label><br><br>
+
+        <label for="country">Country</label>
+        <select name="" id="">
+            <option value="in">India</option>
+            <option value="us">USA</option>
+            <option value="uk">UK</option> 
+        </select><br><br>
+
+        <label for="language">Language</label>
+        <input type="checkbox" name="language" id="html">
+        <label for="english">HTML</label>
+        <input type="checkbox" name="language" id="css">
+        <label for="hindi">CSS</label>
+        <input type="checkbox" name="language" id="js">
+        <label for="hindi">JavaScript</label> <br><br>
+
+        <label for="pass">Password</label>
+        <input type="password" name="pass" id="pass"><br><br>
+
+        <label for="range">Range</label>
+        <input type="range" name="range" id="range" step="10"><br><br>
+
+        <label for="color">Color</label>
+        <input type="color" name="color" id="color"> <br><br>
+
+        <label for="file"></label>
+        <input type="file" name="file" id="file"> <br><br>
+
+        <input type="reset" name="reset" id="reset"> <br><br>
+
+        <label for="search">Search</label>
+        <input type="search" name="search" id="search"> <br><br>
+
+        <label for="hidden">Hidden</label>
+        <input type="hidden" name="hidden" id="hidden"> <br><br>
+
+        <label for="tel"></label>
+        <input type="tel" name="tel" id="tel"> <br><br>
+
+        <label for="date"></label>
+        <input type="date" name="date" id="date"> <br><br>
+
+        <label for="url">URL</label>
+        <input type="url" name="url" id="url"> <br><br>
+
+        <label for="time">Time</label>
+        <input type="time" name="time" id="time"> <br><br>
+
+        <label for="month">Month</label>
+        <input type="month" name="month" id="month"> <br><br>
+
+        <input type="button" value="Submit"><br><br>
+    
+    </fieldset><br><br>
+
+    </form>
+
+    <table>
+        <tr>
+            <th><label for="fname">First name:</label></th>
+            <th><input type="text" id="fname" name="fname"></th>
+        </tr>
+        <tr>
+            <th><label for="lname">Last Name:</label></th>
+            <th><input type="text" id="lname" name="lname"></th>
+        </tr>
+
+        <tr>
+            <th><label for="email">Email:</label></th>
+            <th><input type="email" name="email" id="email"></th>
+        </tr>
+
+        <tr>
+            <th><label for="addr">Address</label></th>
+            <th><textarea name="addr" id="addr" cols="30" rows="10"></textarea></th>
+        </tr>
+
+        <tr>
+            <th><label for="gender">Gender</label></th>
+            <th>
+                <input type="radio" name="gender" id="male">
+                <label for="male">male</label>
+        
+                <input type="radio" name="gender" id="female">
+                <label for="male">female</label></th>
+        </tr>
+
+        <tr>
+            <th><label for="country">Country</label></th>
+            <th><select name="" id="">
+                <option value="in">India</option>
+                <option value="us">USA</option>
+                <option value="uk">UK</option> 
+            </select></th>
+        </tr>
+
+        <tr>
+            <th><label for="language">Language</label></th>
+            <th>
+                <input type="checkbox" name="language" id="html">
+                <label for="english">HTML</label>
+                <input type="checkbox" name="language" id="css">
+                <label for="hindi">CSS</label>
+                <input type="checkbox" name="language" id="js">
+                <label for="hindi">JavaScript</label></th>
+        </tr>
+    </table>
+
+
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</body>
+</html>
