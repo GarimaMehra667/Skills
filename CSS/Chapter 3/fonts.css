@@ -1,0 +1,13 @@
+p  {
+    font-size: 30px;
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+h2{
+    text-transform: uppercase;
+    line-height: 0.9;
+    text-decoration: underline;
+    background-color: beige;
+    text-align: center;
+}

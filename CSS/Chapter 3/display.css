@@ -1,0 +1,25 @@
+.a{
+    background-color: blueviolet;
+    border: 5px solid black;
+    display: inline;
+}
+
+.b{
+    background-color: rgb(43, 98, 226);
+    border: 5px solid black;
+    display: inline-block;
+    width: 150px;
+    height:150px;
+}
+
+.c{
+    background-color: rgb(43, 98, 226);
+    border: 5px solid black;
+    display: block;
+}
+
+.d{
+    background-color: rgb(43, 98, 226);
+    border: 5px solid black;
+    display: none;
+}
