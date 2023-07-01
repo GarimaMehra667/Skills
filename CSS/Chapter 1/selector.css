@@ -1,0 +1,24 @@
+/* 1. Element selector */
+p{
+    color: blue;
+}
+
+/* 2. Id selector */
+#myId{
+    color: brown;
+}
+
+/* 3. Class selector */
+.myClass{
+    color: blueviolet;
+}
+
+/* 4. Universal selector */
+*{
+    font-size: 25px;;
+}
+
+/* 5. Attribute Selector */
+p[target]{
+    color: green;
+}
